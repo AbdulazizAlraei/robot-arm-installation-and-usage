@@ -54,8 +54,33 @@ then
 source ~/.bashrc
 ```
 
+## Second for configuring arduino with ROS:
+
+Install Arduino IDE in Ubuntu https://www.arduino.cc/en/software to install run
+```
+sudo ./install.sh after unzipping the folder
+```
+Install the arduino package and ros library by running
+```
+sudo apt-get install ros-noetic-rosserial-arduino
+```
+```
+sudo apt-get install ros-noetic-rosserial
+```
+then
+install ros_lib into the Arduino Environment
+```
+cd <sketchbook>/libraries
+```
+```
+  rm -rf ros_lib
+```
+```
+rosrun rosserial_arduino make_libraries.py .
+```
 
 
+## Third usage:
 
 
 
