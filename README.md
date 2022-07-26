@@ -56,9 +56,9 @@ source ~/.bashrc
 
 ## Second for configuring arduino with ROS:
 
-Install Arduino IDE in Ubuntu https://www.arduino.cc/en/software to install run
+Install Arduino IDE in Ubuntu https://www.arduino.cc/en/software to install run this command after unzipping the folder
 ```
-sudo ./install.sh after unzipping the folder
+sudo ./install.sh 
 ```
 Install the arduino package and ros library by running
 ```
