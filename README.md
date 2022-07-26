@@ -87,7 +87,7 @@ Run this command in the terminal
 ```
 roslaunch robot_arm_pkg check_motors.launch
 ```
-after running this command you will git this page:
+after running this command you will get this page:
 
 ![لقطة الشاشة 2022-07-26 213956](https://user-images.githubusercontent.com/109360750/181086689-bf639e99-1f89-4d61-9397-cfdfb6ee59a7.png)
 
@@ -97,7 +97,7 @@ Run this command in the terminal
 ```
 $ roslaunch moveit_pkg demo.launch
 ```
-after running this command you will git this page:
+after running this command you will get this page:
 
 ![لقطة الشاشة 2022-07-26 213736](https://user-images.githubusercontent.com/109360750/181087403-4e185030-6c0f-43b8-93ec-cbfe9f3fcd1a.png)
 
@@ -107,4 +107,6 @@ after running this command you will git this page:
 
 **Reference**:
 https://github.com/smart-methods/arduino_robot_arm
+
+
 http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup
